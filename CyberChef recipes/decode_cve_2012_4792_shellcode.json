@@ -1,0 +1,6 @@
+[
+  { "op": "From Hex",
+    "args": ["Auto"] },
+  { "op": "Swap endianness",
+    "args": ["Raw", 2, true] }
+]
