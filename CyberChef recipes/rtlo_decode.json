@@ -1,0 +1,34 @@
+[
+    {
+        "op": "To Hex",
+        "args": [
+            "Space",
+            0
+        ],
+        "disabled": true
+    },
+    {
+        "op": "Escape Unicode Characters",
+        "args": [
+            "\\u",
+            false,
+            4,
+            true
+        ],
+        "disabled": true
+    },
+    {
+        "op": "Find / Replace",
+        "args": [
+            {
+                "option": "Regex",
+                "string": "\\u202e"
+            },
+            "",
+            true,
+            false,
+            true,
+            false
+        ]
+    }
+]
