@@ -1,0 +1,11 @@
+[
+  { "op": "From Hex",
+    "args": ["Auto"] },
+  { "op": "XOR",
+    "args": [{ "option": "Hex", "string": "0x95" }, "Standard", true] },
+  { "op": "Find / Replace",
+    "args": [{ "option": "Extended (\\n, \\t, \\x...)", "string": "\\x95" }, "\\x00", true, false, true, false] },
+  { "op": "To Hex",
+    "args": ["Space", 0],
+    "disabled": true }
+]
