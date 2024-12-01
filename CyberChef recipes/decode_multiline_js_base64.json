@@ -1,6 +1,6 @@
 [
   { "op": "Find / Replace",
-    "args": [{ "option": "Regex", "string": "\\+|\"" }, "", true, false, true, false] },
+    "args": [{ "option": "Regex", "string": "\"\\+|\"" }, "", true, false, true, false] },
   { "op": "From Base64",
     "args": ["A-Za-z0-9+/=", true, false] }
 ]
